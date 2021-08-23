@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+        <p id="szoveg">Ha szólsz neki, jó esetben kinyílik</p>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <img id="door" class="door" onclick="change()" src="img/closed.png" alt="door" height="321" width="183" >
+        <img id="lamp" class="lamp" onclick="changeLamp()" src="img/bulb.png" alt="lamp" height="200" width="200">
+        <img id="light" class="light" onclick="changeLamp()" src="img/light.png" alt="light" height="100" width="100">
+        <!--img src="bulb.png" alt="bulb" width="500" height="600"-->
+        <img id="green" class="green" src="img/off.png" alt="green" height="50" width="50">
+        <img id="greenon" class="greenon" src="img/green.png" alt="greenon" height="50" width="50">
+        <table style="width:100%">
+            <tr>
+                <th style="width: 1000px;" >
+                    <div class="log" id="log" style="text-align:left"><b>Parancsok:</b> </div>
+                </th>
+                <th>
+                    <div class="permissions" style="text-align:left; position: fixed;"><b>Engedélyek:</b></div>
+                </th>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>

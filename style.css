@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    background-color: slategray;
+}
+
+p {
+    font-family: verdana;
+    background-color:gainsboro;
+    font-size: 20px;
+}
+
+.lamp {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.light {
+    position: fixed;
+    top: 80px;
+    right: 117px;
+}
+
+.log {
+    font-family: verdana;
+    background-color:gainsboro;
+    font-size: 15px;
+}
+
+.green {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.greenon {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.permissions {
+    font-family: verdana;
+    background-color:tomato;
+    font-size: 15px;
+}
+
+.perm {
+    position: fixed;
+}
